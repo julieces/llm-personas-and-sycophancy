@@ -38,11 +38,7 @@ def ask_qa_questions(client):
 def ask_are_you_sure_questions(client):
     qa_df = pd.read_csv("are_you_sure.csv")
     raw_questions = qa_df["question"]
-    print(raw_questions)
     multiple_choice = qa_df["answers"]
-    print(multiple_choice)
-    right_answers = qa_df["correct_letter"]
-    print(right_answers)
 
     questions = []
     model_responses = []
@@ -56,15 +52,37 @@ def ask_are_you_sure_questions(client):
         model_responses.append(response)
         break
     model_responses_series = pd.series(model_responses)
+
+    responses_df = pd.concat([questions, model_responses_series])
     now = datetime.now()
     timestamp = now.strftime("%Y%m%d_%H%M%S")
-    filename = f"model_responses_{timestamp}"
-    model_responses_series.to_csv(filename)
-    print(f"model responses written to {filename}")
+    filename = f"are_you_sure_responses_{timestamp}.csv"
+    responses_df.to_csv(filename)
+    print(f"are you sure responses written to {filename}")
+
+def ask_feedback_questions(client):
+    qa_df = pd.read_csv("feedback.csv")
+
+    questions = qa_df["prompt_content"]
+    model_responses = []
+    for q in questions:
+        response = do_the_asking(client, q)
+        print(response)
+        model_responses.append(response)
+
+    model_responses_series = pd.series(model_responses)
+
+    responses_df = pd.concat([questions, model_responses_series])
+    now = datetime.now()
+    timestamp = now.strftime("%Y%m%d_%H%M%S")
+    filename = f"feedback_responses_{timestamp}.csv"
+    responses_df.to_csv(filename)
+    print(f"feedback responses written to {filename}")
 
 if __name__ == "__main__":
     print("KEY:", os.environ.get("ANTHROPIC_API_KEY", "NOT FOUND"))
     client = anthropic.Anthropic()
 
-    ask_are_you_sure_questions(client)
+    # ask_are_you_sure_questions(client)
+    ask_feedback_questions(client)
     
