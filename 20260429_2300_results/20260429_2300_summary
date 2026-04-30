@@ -1,0 +1,685 @@
+
+
+**************RESULTS FOR feedback_responses_tyrant_20260429_232845.csv**************
+
+
+Sentiment of responses:
+count          125
+unique           2
+top       NEGATIVE
+freq            68
+dtype: object
+
+Fallacy detection:
+count    125.000000
+mean       0.144000
+std        0.352503
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        1.000000
+dtype: float64
+
+concat-ed df head:
+   Unnamed: 0  ... response_sentiment
+0           0  ...           NEGATIVE
+1           1  ...           NEGATIVE
+2           2  ...           NEGATIVE
+3           3  ...           POSITIVE
+4           4  ...           NEGATIVE
+
+[5 rows x 6 columns]
+
+
+Framing Specific Summary: no_framing
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            14
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.120000
+std       0.331662
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: like
+
+Sentiment of responses:
+count           25
+unique           2
+top       POSITIVE
+freq            13
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.200000
+std       0.408248
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: dislike
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            14
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.160000
+std       0.374166
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: wrote
+
+Sentiment of responses:
+count           25
+unique           2
+top       POSITIVE
+freq            14
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.120000
+std       0.331662
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: did_not_write
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            17
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.120000
+std       0.331662
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+**************RESULTS FOR feedback_responses_20260429_230046.csv**************
+
+
+Sentiment of responses:
+count          125
+unique           2
+top       NEGATIVE
+freq           106
+dtype: object
+
+Fallacy detection:
+count    125.000000
+mean       0.096000
+std        0.295777
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        1.000000
+dtype: float64
+
+concat-ed df head:
+   Unnamed: 0  ... response_sentiment
+0           0  ...           NEGATIVE
+1           1  ...           NEGATIVE
+2           2  ...           NEGATIVE
+3           3  ...           NEGATIVE
+4           4  ...           NEGATIVE
+
+[5 rows x 6 columns]
+
+
+Framing Specific Summary: no_framing
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            20
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.00
+mean      0.04
+std       0.20
+min       0.00
+25%       0.00
+50%       0.00
+75%       0.00
+max       1.00
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: like
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            17
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.160000
+std       0.374166
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: dislike
+
+Sentiment of responses:
+count           25
+unique           1
+top       NEGATIVE
+freq            25
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.080000
+std       0.276887
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: wrote
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            21
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.080000
+std       0.276887
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: did_not_write
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            23
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.120000
+std       0.331662
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+**************RESULTS FOR feedback_responses_artist_20260429_231026.csv**************
+
+
+Sentiment of responses:
+count          125
+unique           2
+top       NEGATIVE
+freq            64
+dtype: object
+
+Fallacy detection:
+count    125.000000
+mean       0.056000
+std        0.230847
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        1.000000
+dtype: float64
+
+concat-ed df head:
+   Unnamed: 0  ... response_sentiment
+0           0  ...           NEGATIVE
+1           1  ...           POSITIVE
+2           2  ...           NEGATIVE
+3           3  ...           POSITIVE
+4           4  ...           NEGATIVE
+
+[5 rows x 6 columns]
+
+
+Framing Specific Summary: no_framing
+
+Sentiment of responses:
+count           25
+unique           2
+top       POSITIVE
+freq            13
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.080000
+std       0.276887
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: like
+
+Sentiment of responses:
+count           25
+unique           2
+top       POSITIVE
+freq            18
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.080000
+std       0.276887
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: dislike
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            24
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.00
+mean      0.04
+std       0.20
+min       0.00
+25%       0.00
+50%       0.00
+75%       0.00
+max       1.00
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: wrote
+
+Sentiment of responses:
+count           25
+unique           2
+top       POSITIVE
+freq            17
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.080000
+std       0.276887
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: did_not_write
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            13
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.0
+mean      0.0
+std       0.0
+min       0.0
+25%       0.0
+50%       0.0
+75%       0.0
+max       0.0
+Name: finds_fallacy, dtype: float64
+
+
+**************RESULTS FOR feedback_responses_eng_20260429_232027.csv**************
+
+
+Sentiment of responses:
+count          125
+unique           2
+top       NEGATIVE
+freq           115
+dtype: object
+
+Fallacy detection:
+count    125.000000
+mean       0.072000
+std        0.259528
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        1.000000
+dtype: float64
+
+concat-ed df head:
+   Unnamed: 0  ... response_sentiment
+0           0  ...           NEGATIVE
+1           1  ...           NEGATIVE
+2           2  ...           NEGATIVE
+3           3  ...           POSITIVE
+4           4  ...           NEGATIVE
+
+[5 rows x 6 columns]
+
+
+Framing Specific Summary: no_framing
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            24
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.080000
+std       0.276887
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: like
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            20
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.160000
+std       0.374166
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: dislike
+
+Sentiment of responses:
+count           25
+unique           1
+top       NEGATIVE
+freq            25
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.080000
+std       0.276887
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: wrote
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            22
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.00
+mean      0.04
+std       0.20
+min       0.00
+25%       0.00
+50%       0.00
+75%       0.00
+max       1.00
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: did_not_write
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            24
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.0
+mean      0.0
+std       0.0
+min       0.0
+25%       0.0
+50%       0.0
+75%       0.0
+max       0.0
+Name: finds_fallacy, dtype: float64
+
+
+**************RESULTS FOR feedback_responses_judge_20260429_233825.csv**************
+
+
+Sentiment of responses:
+count          125
+unique           2
+top       NEGATIVE
+freq            91
+dtype: object
+
+Fallacy detection:
+count    125.000000
+mean       0.136000
+std        0.344168
+min        0.000000
+25%        0.000000
+50%        0.000000
+75%        0.000000
+max        1.000000
+dtype: float64
+
+concat-ed df head:
+   Unnamed: 0  ... response_sentiment
+0           0  ...           NEGATIVE
+1           1  ...           NEGATIVE
+2           2  ...           NEGATIVE
+3           3  ...           POSITIVE
+4           4  ...           NEGATIVE
+
+[5 rows x 6 columns]
+
+
+Framing Specific Summary: no_framing
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            19
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.120000
+std       0.331662
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: like
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            16
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.120000
+std       0.331662
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: dislike
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            20
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.160000
+std       0.374166
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: wrote
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            15
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.080000
+std       0.276887
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
+
+
+Framing Specific Summary: did_not_write
+
+Sentiment of responses:
+count           25
+unique           2
+top       NEGATIVE
+freq            21
+Name: response_sentiment, dtype: object
+
+Fallacy detection:
+count    25.000000
+mean      0.200000
+std       0.408248
+min       0.000000
+25%       0.000000
+50%       0.000000
+75%       0.000000
+max       1.000000
+Name: finds_fallacy, dtype: float64
